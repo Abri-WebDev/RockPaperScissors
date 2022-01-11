@@ -57,6 +57,7 @@ switch (userChoice + computerChoice) {
     case "pp":
         draw(userChoice, computerChoice);
         break;
+        
         default:
             gameOver();
 }
